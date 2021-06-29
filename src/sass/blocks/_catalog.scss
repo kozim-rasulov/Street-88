@@ -13,7 +13,6 @@
         color: #FFFFFF;
         padding: 20px 6px;
         margin-right: 25px;
-        cursor: pointer;
         &::after {
             content: '';
             position: absolute;
@@ -31,9 +30,13 @@
     }
     &__content {
         background: #393636;
+        /* padding: 15px 0; */
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     &-item {
+        /* margin: 15px 15px; */
         width: 370px;
         height: 524px;
         background: #0C0C0C;

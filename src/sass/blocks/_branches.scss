@@ -1,0 +1,11 @@
+.branches {
+    margin-top: 50px;
+    &__title {
+        font-size: 50px;
+        color: $green;
+        text-transform: uppercase;
+        background: $white;
+        padding: 20px 0;
+        text-align: center;
+    }
+}
