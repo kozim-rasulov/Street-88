@@ -42,11 +42,11 @@
                     <img src="icons/logo.png" alt="logo_png" class="logo__img">
                 </a>
                 <ul class="menu">
-                    <li><a href="#" class="menu__link">Главная</a></li>
+                    <li><a href="#" class="menu__link menu__link_active">Главная</a></li>
                     <li><a href="#" class="menu__link">Корзина</a></li>
-                    <li><a href="#" class="menu__link">Меню </a></li>
-                    <li><a href="#" class="menu__link">О нас</a></li>
-                    <li><a href="#" class="menu__link">Контакты</a></li>
+                    <li><a href="#catalog" class="menu__link">Меню </a></li>
+                    <li><a href="about.html" class="menu__link">О нас</a></li>
+                    <li><a href="#footer" class="menu__link">Контакты</a></li>
                 </ul>
             </div>
         </nav>
@@ -72,53 +72,52 @@
                 </article>  
             </div>
         </section>
-        <section class="catalog">
+        <section class="catalog" id="catalog">
 
-            <ul class="catalog__tabs">
-                <li><a href="#" class="catalog__tab">Бургеры</a></li>
+            <!-- <ul class="catalog__tabs">
+                <li><a href="#" class="catalog__tab catalog__tab_active">Бургеры</a></li>
                 <li><a href="#" class="catalog__tab">Хот-Доги</a></li>
                 <li><a href="#" class="catalog__tab">Лаваши</a></li>
                 <li><a href="#" class="catalog__tab">Напитки</a></li>
+            </ul> -->
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active">Бургеры</li>
+                <li class="catalog__tab">Хот-Доги</li>
+                <li class="catalog__tab">Лаваши</li>
+                <li class="catalog__tab">Напитки</li>
             </ul>
-            <div class="catalog__content">
+            <div class="catalog__content catalog__content_active">
                 <div class="catalog-item">
                     <a href="#" class="catalog-item__link">
-                        
-                            <img src="img/burger.jpg" alt="" class="catalog-item__img">
-                            <div class="catalog-item__buy">
-                                <img src="icons/click.png" alt="click_png">
-                            </div>
-                        
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
                     </a>
-                    <!-- <img src="img/burger.jpg" alt="" class="catalog-item__img"> -->
                     <h2 class="catalog-item__title">Мясная лагуна</h2>
                     <p class="catalog-item__descr">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
                     </p>
                 </div>
                 <div class="catalog-item">
-                    <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
                     <h2 class="catalog-item__title">Мясная лагуна</h2>
                     <p class="catalog-item__descr">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
                     </p>
                 </div>
                 <div class="catalog-item">
-                    <img src="img/burger.jpg" alt="" class="catalog-item__img">
-                    <h2 class="catalog-item__title">Мясная лагуна</h2>
-                    <p class="catalog-item__descr">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
-                    </p>
-                </div>
-                <div class="catalog-item">
-                    <img src="img/burger.jpg" alt="" class="catalog-item__img">
-                    <h2 class="catalog-item__title">Мясная лагуна</h2>
-                    <p class="catalog-item__descr">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
-                    </p>
-                </div>
-                <div class="catalog-item">
-                    <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
                     <h2 class="catalog-item__title">Мясная лагуна</h2>
                     <p class="catalog-item__descr">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
@@ -128,9 +127,60 @@
             
 
 
-            <!-- <div class="catalog__content"></div>
-            <div class="catalog__content"></div>
-            <div class="catalog__content"></div> -->
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
+                    <h2 class="catalog-item__title">Мясная лагуна</h2>
+                    <p class="catalog-item__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                    </p>
+                </div>
+                <div class="catalog-item">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
+                    <h2 class="catalog-item__title">Мясная лагуна</h2>
+                    <p class="catalog-item__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                    </p>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
+                    <h2 class="catalog-item__title">Мясная лагуна</h2>
+                    <p class="catalog-item__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                    </p>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <a href="#" class="catalog-item__link">
+                        <img src="img/burger.jpg" alt="" class="catalog-item__img">
+                        <div class="catalog-item__buy">
+                            <img src="icons/click.png" alt="click_png">
+                        </div>
+                    </a>
+                    <h2 class="catalog-item__title">Мясная лагуна</h2>
+                    <p class="catalog-item__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section class="branches" id="branches">
@@ -140,7 +190,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__box">
                 <a href="#" class="footer__logo"><img src="icons/logo.png" alt="logo" class="footer__logo-img"></a>
@@ -148,13 +198,18 @@
             </div>
             <div class="footer-nav">
                 <ul class="footer-nav__menu">
-                    <li><a href="#" class="footer-nav__link">Меню</a></li>
-                    <li><a href="#" class="footer-nav__link">О нас</a></li>
-                    <li><a href="#" class="footer-nav__link">Контакты</a></li>
+                    <li><a href="#catalog" class="footer-nav__link">Меню</a></li>
+                    <li><a href="about.html" class="footer-nav__link">О нас</a></li>
+                    <li><a href="#footer" class="footer-nav__link">Контакты</a></li>
                 </ul>
             </div>
         </div>
         <div class="development">Сайт разработан в целях обучения в PROWEB</div>
     </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
