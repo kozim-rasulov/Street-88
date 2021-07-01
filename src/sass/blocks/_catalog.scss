@@ -54,18 +54,18 @@
             display: block;
             position: relative;
             height: 325px;
-            background: url(../../img/menu_bg/1.jpg) center / cover no-repeat;
-            &_bg-2 {
-                background: url(../../img/menu_bg/2.jpg) center / cover no-repeat;
+            background: url(../../img/menu_bg/main.jpg) center / cover no-repeat;
+            &_king-boxes {
+                background: url(../../img/menu_bg/king-boxes.jpg) center / cover no-repeat;
             }
-            &_bg-4 {
-                background: url(../../img/menu_bg/4.jpg) center / cover no-repeat;
+            &_burgers {
+                background: url(../../img/menu_bg/burgers.jpg) center / cover no-repeat;
             }
-            &_bg-3 {
-                background: url(../../img/menu_bg/7.jpg) center / cover no-repeat;
+            &_rolls {
+                background: url(../../img/menu_bg/rolls.jpg) center / cover no-repeat;
             }
-            &_bg-5 {
-                background: url(../../img/menu_bg/15.jpg) center / cover no-repeat;
+            &_beverages {
+                background: url(../../img/menu_bg/beverages.jpg) center / cover no-repeat;
             }
         }
         &__img {
