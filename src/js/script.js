@@ -10,9 +10,9 @@ $(document).ready(function(){
 
                         /* Menu */
 
-    $('ul.menu').on('click', 'li:not(.menu__link_active)', function() {
+    $('ul.menu').on('click', 'li:not(.menu__page_active)', function() {
       $(this)
-        .addClass('menu__link_active').siblings().removeClass('menu__link_active')
+        .addClass('menu__page_active').siblings().removeClass('menu__page_active')
     });
 
                 /* Якорем */

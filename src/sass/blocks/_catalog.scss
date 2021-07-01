@@ -54,6 +54,19 @@
             display: block;
             position: relative;
             height: 325px;
+            background: url(../../img/menu_bg/1.jpg) center / cover no-repeat;
+            &_bg-2 {
+                background: url(../../img/menu_bg/2.jpg) center / cover no-repeat;
+            }
+            &_bg-4 {
+                background: url(../../img/menu_bg/4.jpg) center / cover no-repeat;
+            }
+            &_bg-3 {
+                background: url(../../img/menu_bg/7.jpg) center / cover no-repeat;
+            }
+            &_bg-5 {
+                background: url(../../img/menu_bg/15.jpg) center / cover no-repeat;
+            }
         }
         &__img {
             width: 100%;
@@ -78,8 +91,17 @@
         }
         &__title {
             font-size: 19px;
-            line-height: 15px;
+            line-height: 30px;
             margin-top: 15px;
+        }
+        &__price {
+            display: inline-block;
+            font-family: $fontAlt;
+            padding: 5px 15px;
+            margin-top: 15px;
+            font-size: 19px;
+            color: yellow;
+            border: 1px solid yellow;
         }
         &__descr {
             font-size: 19px;
