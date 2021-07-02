@@ -6,11 +6,9 @@
         justify-content: space-between;
         align-items: center;
     }
-    /* &__logo-img {
-        margin-top: 30px;
-    } */
     &__phone {
         font-family: $fontAlt;
+        font-weight: 700;
         font-size: 20px;
     }  
     &__menu {
@@ -24,7 +22,6 @@
         font-weight: 400;
         font-size: 20px;
     }
-    
 }
 .development {
     font-family: $fontAlt;

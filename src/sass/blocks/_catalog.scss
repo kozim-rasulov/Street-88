@@ -11,7 +11,6 @@
         position: relative;
         font-weight: 400;
         font-size: 18px;
-        color: #FFFFFF;
         padding: 20px 6px;
         margin-right: 25px;
         cursor: pointer;
@@ -35,7 +34,6 @@
         padding: 15px;
         display: none;
         grid-template-columns: repeat(4, 370px);
-        /* grid-template-rows: repeat(1, 524px); */
         grid-auto-rows: auto;
         justify-content: space-between;
         gap: 30px;
@@ -44,9 +42,7 @@
         }
     }
     &-item {
-        /* width: 370px; */
-        /* height: 524px; */
-        background: #0C0C0C;
+        background: $bodyBg;
         border: 1px solid #FFFFFF;
         border-radius: 4px;
         padding: 15px;
@@ -54,18 +50,18 @@
             display: block;
             position: relative;
             height: 325px;
-            background: url(../../img/menu_bg/main.jpg) center / cover no-repeat;
+            background: url(../img/menu_bg/main.jpg) center / cover no-repeat;
             &_king-boxes {
-                background: url(../../img/menu_bg/king-boxes.jpg) center / cover no-repeat;
+                background: url(../img/menu_bg/king-boxes.jpg) center / cover no-repeat;
             }
             &_burgers {
-                background: url(../../img/menu_bg/burgers.jpg) center / cover no-repeat;
+                background: url(../img/menu_bg/burgers.jpg) center / cover no-repeat;
             }
             &_rolls {
-                background: url(../../img/menu_bg/rolls.jpg) center / cover no-repeat;
+                background: url(../img/menu_bg/rolls.jpg) center / cover no-repeat;
             }
             &_beverages {
-                background: url(../../img/menu_bg/beverages.jpg) center / cover no-repeat;
+                background: url(../img/menu_bg/beverages.jpg) center / cover no-repeat;
             }
         }
         &__img {
