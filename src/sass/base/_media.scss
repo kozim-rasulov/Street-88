@@ -22,10 +22,10 @@
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 1098px) {
     .catalog {
         &__content {
-            grid-template-columns: repeat(2, 370px);
+            grid-template-columns: repeat(2, 354px);
         }
     }
 }
@@ -108,5 +108,141 @@
                 }
             }
         }
+    }
+    .banner {
+        &__title {
+            font-size: 64px;
+        }
+        &__subtitle {
+            font-size: 34px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        &__box {
+            flex-direction: column;
+        }
+        &__price {
+            margin-bottom: 30px;
+        }
+    }
+    .button {
+        max-width: 280px;
+    }
+    .catalog {
+        &__tab {
+            font-size: 11px;
+        }
+        &__content {
+            grid-template-columns: repeat(2, 265.5px);
+            gap: 15px;
+        }
+        &-item {
+            /* &__link {
+                height: 263px;
+            } */
+            &__link {
+                height: 233px;
+            }
+            &__img {
+                /* height: 81%;
+                position: absolute;
+                top: 17%; */
+                /* max-width: 263px;
+                max-height: 263px; */
+                /* object-fit: inherit; */
+            }
+            &__title {
+                font-size: 15px;
+            }
+            &__price {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 15px;
+            }
+        }
+    }
+    .branches {
+        &__title {
+            font-size: 35px;
+        }
+    }
+    .footer {
+        &__logo-img {
+            width: 165px;
+        }
+    }
+}
+
+
+
+@media (max-width: 575px) {
+    .top {
+        &__logo {
+            &-img {
+                max-height: 18px;
+            }
+            &-descr {
+                font-size: 10px;
+            }
+        }
+        &__menu {
+            &-link {
+                padding: 20px 0 20px 20px;
+                font-size: 10px;
+            }
+        }
+    }
+    .banner {
+        &__title {
+            font-size: 46px;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        &__price {
+            font-size: 28px;
+            padding: 24px 54px;
+        }
+    }
+    .button {
+        max-width: none;
+    }
+    .catalog {
+        &__tabs {
+            align-items: center;
+        }
+        &__tab {
+            margin-right: 3px;
+        }
+        &__content {
+            justify-content: center;
+            grid-template-columns: repeat(1, 320px);
+        }
+        &-item {
+            &__link {
+                height: 290px;
+            }
+        }
+    }
+    .branches {
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .footer {
+        &__box {
+            flex-direction: column;
+        }
+        &__logo {
+            margin-bottom: 50px;
+        }
+    }
+    .development {
+        font-size: 13px;
     }
 }
