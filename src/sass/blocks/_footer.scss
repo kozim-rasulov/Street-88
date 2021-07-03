@@ -15,12 +15,12 @@
         display: flex;
         justify-content: center;
         margin: 81px 0;
-    }
-    &__link {
-        margin: 0 10px;
-        font-family: $fontAlt;
-        font-weight: 400;
-        font-size: 20px;
+        &-link {
+            margin: 0 10px;
+            font-family: $fontAlt;
+            font-weight: 400;
+            font-size: 20px;
+        }
     }
 }
 .development {
