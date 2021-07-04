@@ -87,7 +87,7 @@
         }
         &__wrapper {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-top: 15px;
             transition: 0.5s all;
         }
@@ -95,15 +95,13 @@
             font-size: 19px;
             line-height: 30px;
             width: 230px;
+            padding: 0 5px;
         }
         &__descr {
             font-size: 19px;
             line-height: 25px;
             margin-top: 15px;
         }
-
-
-
         &-cash {
             display: flex;
             justify-content: center;
@@ -114,20 +112,46 @@
             font-family: $fontAlt;
             font-weight: 700;
             background-color: transparent;
-            /* transition: 1s all; */
-            /* border: 2px solid #f90; */
-            
+            min-height: 42px;
+            &_king-box {
+                color: $kingBox;
+            }
+            &_burger {
+                color: $burger;
+            }
+            &_rolls {
+                color: $rolls;
+            }
+            &_beverages {
+                color: $beverages;
+            }
+            &_desserts {
+                color: $desserts;
+            }
             &__price {
-               /*  min-height: 40px; */
                 width: 100%;
                 border-radius: 4px;
                 padding: 4px 15px;
                 border: 2px solid $kingKombo;
-                /* transition: 0.5s all; */
+                &_king-box {
+                    border-color: $kingBox;
+                }
+                &_burger {
+                    border-color: $burger;
+                }
+                &_rolls {
+                    border-color: $rolls;
+                }
+                &_beverages {
+                    border-color: $beverages;
+                }
+                &_desserts {
+                    border-color: $desserts;
+                }
                 &-row {
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
+                    justify-content: center;
                     transition: 1s all;
                 }
             }
@@ -139,6 +163,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                margin-left: 5px;
             }
             &__value-top {
                 font-size: 12px;
@@ -147,6 +172,21 @@
                 width: 100%;
                 height: 1px;
                 background: $kingKombo;
+                &_king-box {
+                    background: $kingBox;
+                }
+                &_burger {
+                    background: $burger;
+                }
+                &_rolls {
+                    background: $rolls;
+                }
+                &_beverages {
+                    background: $beverages;
+                }
+                &_desserts {
+                    background: $desserts;
+                }
             }
             &__currency {
                 font-size: 12px;
@@ -166,27 +206,39 @@
                 position: absolute;
                 top: 7px;
                 left: 50%;
+                font-size: 25px;
                 transform: translateX(-50%);
                 transition: 0.5s all;
             }
         }
         &:hover {
             .catalog-item-cash {
-                /* min-height: 40px; */
                 border-radius: 4px;
                 padding: 0px 15px 0px 35px;
                 border: 2px solid $kingKombo;
+                &_king-box {
+                    border-color: $kingBox;
+                }
+                &_burger {
+                    border-color: $burger;
+                }
+                &_rolls {
+                    border-color: $rolls;
+                }
+                &_beverages {
+                    border-color: $beverages;
+                }
+                &_desserts {
+                    border-color: $desserts;
+                }
             }
-            
             .catalog-item-cash__price {
-                /* display: none; */
                 border-radius: 0;
                 padding: 0;
                 border: none;
                 opacity: 0;
             }
             .catalog-item-cash__price-row {
-               /*  display: none; */
                 opacity: 0;
             }
             .catalog-item-cash__plus {
@@ -199,40 +251,3 @@
         }
     }
 }
-// &:hover {
-//     border-radius: 4px;
-//     padding: 0px 15px 0px 35px;
-//     border: 2px solid #f90;
-//     .catalog-item-cash__price {
-//         /* display: none; */
-//         border-radius: 0;
-//         padding: 0;
-//         border: none;
-//         opacity: 0;
-//     }
-//     .catalog-item-cash__price-row {
-//         display: none;
-//     }
-//     .catalog-item-cash__plus {
-//         transform: translateX(-30px);
-//     }
-//     .catalog-item-cash__click {
-//         opacity: 1;
-//     }
-// }
-
-
-
-
-
-        /* &__price {
-            display: inline-block;
-            font-family: $fontAlt;
-            padding: 5px 15px;
-            margin-top: 15px;
-            font-size: 19px;
-            color: yellow;
-            border: 1px solid yellow;
-        } */
-        
- 
