@@ -24,10 +24,11 @@
         font-weight: 400;
         font-size: 36px;
         color: $green;
+        line-height: 17px;
         margin-top: 18px;
     }
     &__descr {
-        margin-top: 18px;
+        margin-top: 29px;
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
@@ -43,7 +44,8 @@
         display: inline-block;
         font-weight: 100;
         font-size: 50px;
-        padding: 32px 76px;
+        line-height: 25px;
+        padding: 33px 76px 45px;
         background: rgba(105, 207, 23, 0.5);
         backdrop-filter: blur(18px);
     }

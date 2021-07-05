@@ -14,21 +14,12 @@
         align-items: center;
     }
 }
-.logo {
-    &__img {
-        display: block;
-        width: 216px;
-        max-height: 53px;
-        height: 100%;
-        object-fit: cover;
-    }
-}
 .menu {
     display: flex;
     &__page {
         transition: 500ms;
         &_active {
-            background: $green;
+            background: $menuBg;
         }   
     }
     &__link {
